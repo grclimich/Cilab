@@ -1,0 +1,153 @@
+html,body{
+	margin:0;padding:0}
+body{
+	    font-family: Calibri;
+
+    color: #004275;
+	}
+ul, ol {
+	margin: auto;
+	list-style: none;
+	font-family: "Calibri";
+	font-size: large;
+}
+
+.nav{
+	margin-top:20px;
+	margin-left: 150px;
+	}
+	
+
+	
+.nav li a {
+	background-color: #AA0000;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	border: 2px solid #CCC;
+	border-radius: 10px;
+			}	
+.nav li a:hover{
+	
+	background-color:#A0A0A4;
+	
+}	
+.nav > li {
+	float: left;
+	width: 15%;
+}	
+
+
+
+
+/****************************************************************************************************************************************************************************************************************************************************************/
+
+div#Cabeza{
+	height: 110px;
+	width:100%;
+	background-color:#A0A0A4;
+  color: #F00;
+  }
+  
+div#content{
+	width:100%;
+	height: 100%;
+	background-color: #FFF;
+    
+}  
+  
+div#container{
+		width:1200px;
+		height:auto;
+	margin:-25 auto;
+	border-style:solid;
+	
+	}
+
+
+#column_left {
+	background: #A00;
+    width:200px;
+	height:100%;
+    float:left;
+}
+
+#column_right {
+	background:#fff;
+    width:1000px;
+	height:100%;
+    float: right;
+}
+#column_menu {
+	background:#fff;
+    width:1000px;
+	height:50px;
+    float: none;
+}	
+/****************************************************************************************************************************************************************************************************************************************************************/
+
+label{
+display:block;
+color:#2175bc;
+
+}
+
+
+fieldset{
+  
+  width: 350px;
+  margin:auto;
+  color:#2175bc;
+}
+
+fieldset legend{
+color:#2175bc;	
+
+	}
+	
+input{
+	width:100%;
+	margin-bottom:5px;
+	padding:7px;	
+}	
+	
+input:focus, select:focus{
+background-color:#E2ECEE;	
+border-top:5px solid #E2ECEE;
+border-left:5px solid #E2ECEE;
+border-right:1px solid #E2ECEE;
+border-bottom:1px solid #E2ECEE;
+}
+
+select{
+	width:100%;
+	margin-bottom:5px;
+	padding:7px;	
+	}
+	
+	.input{
+margin-left: 195px;
+	
+width:40%;
+
+}
+
+.input2{
+margin-left:15px;
+margin-top:-39px;
+width:40%;
+
+}.input{
+margin-left: 195px;
+	
+width:40%;
+
+}
+
+.input2{
+margin-left:15px;
+margin-top:-39px;
+width:40%;
+
+}

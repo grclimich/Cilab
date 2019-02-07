@@ -1,0 +1,124 @@
+﻿#lista{ width: 773px;}/* TAMAÑO DE LA TABLA */
+		
+	   .datagrid legend{
+		font-size:30px;
+		padding:10px;
+		width:100%;
+		font-color:#FFF;
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #08405C), color-stop(1, #08405C) );background:-moz-linear-gradient( center top, #74747A%, #08405C 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#74747A', endColorstr='#74747A');background-color:#08405C; color:#FFFFFF; font-size: 19px; font-weight: bold; border-left: 1px solid #08405C; 
+			}
+			
+			.datagrid table {
+			 border-collapse: collapse; text-align: center; width: 100%; }
+		 .datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 2px solid #A0A0A0;  }
+		 
+		 .datagrid table td, .datagrid table th 
+		 { padding: 11px 3px;
+		 }
+		 
+		 .datagrid table thead th {
+	     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #08405C), color-stop(1, #08405C) );background:-moz-linear-gradient( center top, #08405C 5%, #08405C 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#74747A', endColorstr='#052636');background-color:#08405C; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #08405C; 
+		 }
+		 
+		 .datagrid table thead th:first-child
+		  { 
+		  border: none; 
+		  }
+		  
+		  .datagrid table tbody td 
+		  {
+		color: #052636; border-left: 1px solid #A0A0A0;font-size: 14px;border-bottom: 1px solid #052636;font-weight: bold; 
+		}
+		
+		.datagrid table tbody .alt td 
+		{
+			 background: #EBEBEB; color: #052636;
+			  }
+			  
+	    .datagrid table tbody td:first-child 
+			  {
+		border-left: none;
+				    }
+					
+	    .datagrid table tbody tr:last-child td
+		 {
+	    border-bottom: none;
+		 }
+		 
+		 	.barralateral{
+		height:130px;
+		width:100%;
+		overflow:scroll;
+		overflow-x :hidden;
+		visibility:visible;
+		float:left;
+		
+		
+	    }
+		
+		#lista{
+			margin-top:20px;/* ALTURA DE LA TABLA */
+	        margin-left:120px;/* ALINEAR LA TABLA */
+	} 
+
+#tabla{
+	border: 2px solid #A0A0A4;
+	
+	}
+	#th{
+	background:#08405C;
+	color:#fff;
+	margin-left:10px;
+	width:170px;
+	padding: 8px 8px 8px 8px;
+	text-align:center;
+	}
+	#th1{
+	background:#ffffff;
+	color:#4D90FE;
+	margin-left:10px;
+	width:170px;
+	padding: 8px 8px 8px 8px;
+	text-align:center;
+	}
+	
+	#form-1{
+	margin-left:65px;
+	margin-top:20px;
+	width:550px;
+	
+	}
+	
+	#cod_s{
+	width:70px;
+	}
+	#nro_solicitud{
+	width:70px;
+	}
+	
+	#cod_i{
+	width:300px;
+	}
+	
+
+	#cantidad_salida{
+	width:90px;
+	}
+	#accion_de_salida{
+	width:160px;
+	}
+	#cod_r{
+	width:220px;
+	}
+	#fecha_s{
+	width:105px;
+	}
+	#observaciones{
+	width:160px;
+	}
+	#form-2{
+	margin-left:240px;
+	width:950px;
+	
+	}
+

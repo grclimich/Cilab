@@ -1,0 +1,296 @@
+//************************************************************************************************************************************************************/
+function validar20(formulario3){
+    var bOk = false;  
+	/******************Campos Vacios ********************/
+	 nombre_2 = document.getElementById("nombre_2").value;
+	 direccion = document.getElementById("direccion").value;
+	 municipio = document.getElementById("municipio").selectedIndex;
+	 telefono = document.getElementById("telefono").value;  	 
+ /******************COMPRUEBA el nombre********************/
+if( nombre_2 == null || nombre_2.length == 0 || /^\s+$/.test(nombre_2) ) {
+ alert('Debe ingresar un nombre de Laboratorio');
+ document.getElementById("nombre_2").focus();
+  return false;
+} /******************COMPRUEBA tipo de producto********************/
+else if( direccion == null || direccion.length == 0 || /^\s+$/.test(direccion) ) {
+ alert('Debe ingresar una Direccion');
+ document.getElementById("direccion").focus();
+  return false;
+}/******************COMPRUEBA tipo de producto********************/
+else if( municipio == null || municipio == 0  ) {
+ alert('Debe ingresar un municipio');
+ document.getElementById("municipio").focus();
+  return false;
+} /******************COMPRUEBA el telefono********************/
+else if( telefono == null || telefono.length == 0 || /^\s+$/.test(telefono) ) {
+ alert('Debe ingresar un Telefono');
+ document.getElementById("telefono").focus();
+  return false;
+}
+}
+//***************************************************************************************************************************************************************/
+function validar1(formulario){ 
+    var bOk = false;  
+	/******************Campos Vacios ********************/
+	 cod_i = document.getElementById("cod_i").value;
+	 descripcion = document.getElementById("descripcion").value;
+	 tipo_p = document.getElementById("tipo_p").selectedIndex;
+	 var presentacion = document.formulario.presentacion.value;
+	 almacen= document.getElementById("almacen").value; 
+	 
+if( cod_i == null || cod_i.length == 0 || /^\s+$/.test(cod_i) ) {
+ alert('Debe llenar todos los campos');
+ document.getElementById("cod_i").focus();
+  return false;
+}
+ /******************COMPRUEBA la descripcion********************/
+else if( descripcion == null || descripcion.length == 0 || /^\s+$/.test(descripcion) ) {
+ alert('Debe ingresar una Descripcion');
+ document.getElementById("descripcion").focus();
+  return false;
+}/******************COMPRUEBA tipo de producto********************/
+else if( tipo_p == null || tipo_p == 0  ) {
+ alert('Debe ingresar un Tipo de Producto');
+ document.getElementById("tipo_p").focus();
+  return false;
+
+}/******************COMPRUEBA la presentacion********************/
+else if( presentacion == null || presentacion==0 || presentacion.length == 0 || /^\s+$/.test(presentacion) ) {
+ alert('Debe ingresar una Presentacion');
+ document.getElementById("presentacion").focus();
+  return false;
+} /******************COMPRUEBA el almacen********************/
+else if( almacen == null || almacen.length == 0 || /^\s+$/.test(almacen) ) {
+ alert('Debe ingresar un Almacen');
+ document.getElementById("almacen").focus();
+  return false;
+} 
+}
+//****************************************************************************************************************************************************************//
+function validar2(formulario4){
+	var bOk = false;  
+	/******************Campos Vacios ********************/
+	 razon_entrada = document.getElementById("razon_entrada").value;
+ /******************COMPRUEBA la razond e entrada********************/
+if( razon_entrada == null || razon_entrada.length == 0 || /^\s+$/.test(razon_entrada) ) {
+ alert('Debe ingresar una Razon de Entrada');
+ document.getElementById("razon_entrada").focus();
+  return false;
+} 
+}
+//****************************************************************************************************************************************************************//
+function validar3(formulario5){
+	var bOk = false;  
+	/******************Campos Vacios ********************/
+	 razon_salida = document.getElementById("razon_salida").value;
+ /******************COMPRUEBA la razon de salida********************/
+if( razon_salida == null || razon_salida.length == 0 || /^\s+$/.test(razon_salida) ) {
+ alert('Debe ingresar una Razon de Salida');
+ document.getElementById("razon_salida").focus();
+  return false;
+} 
+}
+//***************************************************************************************************************************************************************//
+function validar4(formulario7){
+	var bOk = false;  
+	/******************Campos Vacios ********************/
+	 nombre_municipio = document.getElementById("nombre_municipio").value;
+ /******************COMPRUEBA el nombre del municipio********************/
+if( nombre_municipio == null || nombre_municipio.length == 0 || /^\s+$/.test(nombre_municipio) ) {
+ alert('Debe ingresar un Municipio');
+ document.getElementById("nombre_municipio").focus();
+  return false;
+} 
+}
+//****************************************************************************************************************************************************************//
+function validar5(formulario6){
+	var bOk = false;  
+	/******************Campos Vacios ********************/
+	 clase_presentacion = document.getElementById("clase_presentacion").value;
+ /******************COMPRUEBA la clase de presenacion********************/
+if( clase_presentacion == null || clase_presentacion.length == 0 || /^\s+$/.test(clase_presentacion) ) {
+ alert('Debe ingresar una Clase de Presentacion');
+ document.getElementById("clase_presentacion").focus();
+  return false;
+}
+}
+
+//****************************************************************************************************************************************************************//
+function validar6(formulario00){
+	var bOk = false;  
+	/******************Campos Vacios ********************/
+	 nombre_usuario = document.getElementById("nombre_usuario").value;
+	 pass = document.getElementById("pass").value;
+ /******************COMPRUEBA la clase de presenacion********************/
+if( nombre_usuario == null || nombre_usuario.length == 0 || /^\s+$/.test(nombre_usuario) ) {
+ alert('Debe ingresar un nombre de usuario');
+ document.getElementById("nombre_usuario").focus();
+  return false;
+}/******************COMPRUEBA el pass********************/
+else if( pass == null || pass.length == 0 || /^\s+$/.test(pass) ) {
+ alert('Debe ingresar una clave de usuario');
+ document.getElementById("pass").focus();
+  return false;
+}
+}
+//***************************************************************************************************************************************************************/
+function validar9(formulario9){ 
+    var bOk = false;  
+	/******************Campos Vacios ********************/
+	 var cod_i = document.getElementById("cod_i").selectedIndex;
+	 cod_r = document.getElementById("cod_r").selectedIndex;
+	 fecha_solicitud = document.getElementById("fecha_solicitud").value;
+	 cantidad= document.getElementById("cantidad").value; 
+	 status= document.getElementById("status").value; 
+	 
+if( cod_i == null || cod_i == 0  ) {
+ alert('Agregue un producto');
+ document.getElementById("cod_i").focus();
+  return false;
+}
+ /******************COMPRUEBA la cod_r********************/
+else if( cod_r == null || cod_r == 0  ) {
+ alert('Agregue un Laboratorio receptor');
+ document.getElementById("cod_r").focus();
+  return false;
+}
+/******************COMPRUEBA la fecha_solicitud********************/
+else if( fecha_solicitud == null || fecha_solicitud.length == 0 || /^\s+$/.test(fecha_solicitud) ) {
+ alert('Agregue una fecha de solicitud');
+ document.getElementById("fecha_solicitud").focus();
+  return false;
+} /******************COMPRUEBA el cantidad********************/
+else if( cantidad == null || cantidad.length == 0 || /^\s+$/.test(cantidad) ) {
+ alert('Debe ingresar una cantidad');
+ document.getElementById("cantidad").focus();
+  return false;
+} 
+/******************COMPRUEBA la fecha_solicitud********************/
+else if( status == null || status.length == 0 || /^\s+$/.test(status) ) {
+ alert('Agregue un status');
+ document.getElementById("status").focus();
+  return false;
+}
+}
+
+
+//***************************************************************************************************************************************************************/
+function validar10(formulario2){ 
+    var bOk = false;  
+	/******************Campos Vacios ********************/
+	var accion_de_salida = document.getElementById("accion_de_salida").selectedIndex;
+	fecha_s= document.getElementById("fecha_s").value; 
+	observaciones= document.getElementById("observaciones").value; 
+	var cod_i = document.getElementById("cod_i").selectedIndex;
+	cantidad_salida= document.getElementById("cantidad_salida").value; 
+
+ /******************COMPRUEBA la accion_de_salida********************/
+if( accion_de_salida == null || accion_de_salida == 0  ) {
+ alert('Agregue una accion de salida');
+ document.getElementById("accion_de_salida").focus();
+  return false;
+}
+/******************COMPRUEBA la fecha_solicitud********************/
+else if( fecha_s == null || fecha_s.length == 0 || /^\s+$/.test(fecha_s) ) {
+ alert('Agregue una fecha de salida');
+ document.getElementById("fecha_s").focus();
+  return false;
+}
+/******************COMPRUEBA la fecha_solicitud********************/
+else if( observaciones == null || observaciones.length == 0 || /^\s+$/.test(observaciones) ) {
+ alert('Agregue una observacion');
+ document.getElementById("observaciones").focus();
+  return false;
+}	 
+else if( cod_i == null || cod_i == 0  ) {
+ alert('Agregue un producto');
+ document.getElementById("cod_i").focus();
+  return false;
+}
+ /******************COMPRUEBA el cantidad********************/
+else if( cantidad_salida == null || cantidad_salida.length == 0 || /^\s+$/.test(cantidad_salida) ) {
+ alert('Debe ingresar una cantidad de salida');
+ document.getElementById("cantidad_salida").focus();
+  return false;
+} 
+}
+
+//***************************************************************************************************************************************************************/
+function validar11(formulario2){ 
+    var bOk = false;  
+	/******************Campos Vacios ********************/
+	fecha_s= document.getElementById("fecha_s").value; 
+	observaciones= document.getElementById("observaciones").value; 
+	var lote = document.getElementById("lote").value;
+	var cod_i = document.getElementById("cod_i").selectedIndex;
+	cantidad_salida= document.getElementById("cantidad_salida").value; 
+
+ /******************COMPRUEBA la accion_de_salida********************/
+if( fecha_s == null || fecha_s.length == 0 || /^\s+$/.test(fecha_s) ) {
+ alert('Agregue una fecha de salida');
+ document.getElementById("fecha_s").focus();
+  return false;
+}
+/******************COMPRUEBA la fecha_solicitud********************/
+else if( observaciones == null || observaciones.length == 0 || /^\s+$/.test(observaciones) ) {
+ alert('Agregue una observacion');
+ document.getElementById("observaciones").focus();
+ return false;
+}
+/******************COMPRUEBA EL LOTE********************/
+else if( lote == null || lote.length == 0 || /^\s+$/.test(lote) ) {
+ alert('Agregue un lote');
+ document.getElementById("lote").focus();
+ return false;
+}	 
+else if( cod_i == null || cod_i == 0  ) {
+ alert('Agregue un producto');
+ document.getElementById("cod_i").focus();
+  return false;
+}
+ /******************COMPRUEBA el cantidad********************/
+else if( cantidad_salida == null || cantidad_salida.length == 0 || /^\s+$/.test(cantidad_salida) ) {
+ alert('Debe ingresar una cantidad de salida');
+ document.getElementById("cantidad_salida").focus();
+  return false;
+} 
+}
+/**************************************************************************************************************************************************************/
+function validar30(formulario14){ 
+    var bOk = false;  
+	/****************** ********************/
+	cod_e= document.getElementById("cod_e").value;
+	
+ /*****************************************************/
+if( cod_e == null || cod_e.length == 0 || /^\s+$/.test(cod_e) ) {
+ alert('Agregue un numero de entrada');
+ document.getElementById("cod_e").focus();
+  return false;
+}
+}
+/**************************************************************************************************************************************************************/
+function validar19(formulario16){ 
+    var bOk = false;  
+	/****************** ********************/
+	cod_s= document.getElementById("cod_s").value;
+	
+ /*****************************************************/
+if( cod_s == null || cod_s.length == 0 || /^\s+$/.test(cod_s) ) {
+ alert('Agregue un numero de salida');
+ document.getElementById("cod_s").focus();
+  return false;
+}
+}
+/**************************************************************************************************************************************************************/
+function validar18(formulario17){ 
+    var bOk = false;  
+	/****************** ********************/
+	nro_solicitud= document.getElementById("nro_solicitud").value;
+	
+ /*****************************************************/
+if( nro_solicitud == null || nro_solicitud.length == 0 || /^\s+$/.test(nro_solicitud) ) {
+ alert('Agregue un numero de solicitud');
+ document.getElementById("nro_solicitud").focus();
+  return false;
+}
+}

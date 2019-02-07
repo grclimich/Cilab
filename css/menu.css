@@ -1,0 +1,179 @@
+html,body{
+	margin:0;padding:0}
+body{
+	    font-family: Calibri;
+
+    color: #004275;
+	}
+ul, ol {
+	margin: auto;
+	list-style: none;
+	font-family: "Calibri";
+	font-size: large;
+}
+
+.nav{
+	margin-top:20px;
+	margin-left:80px;
+	}
+	
+
+	
+.nav li a {
+	background-color: #AA0000;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 10px 10px;
+	display: block;
+	border: 2px solid #CCC;
+	border-radius: 10px;
+			}	
+.nav li a:hover{
+	
+	background-color:#A0A0A4;
+	
+}	
+.nav > li {
+	float: left;
+	width: 150px;
+}	
+.nav li ul {
+	
+	display:none;
+	position:absolute;	
+	min-width:120px;
+	
+}	
+.nav li ul  li{
+	position:relative;
+}	
+.nav li ul li ul{
+	right:-220px;
+	top:0px;
+}	
+.nav li:hover > ul {
+	
+	display:block;
+}
+
+
+
+/****************************************************************************************************************************************************************************************************************************************************************/
+
+div#Cabeza{
+	height: 110px;
+	width:100%;
+	background-color:#A0A0A4;
+  color: #F00;
+  }
+  
+div#content{
+	width:100%;
+	height: 100%;
+	background-color: #FFF;
+    
+}  
+  
+div#container{
+		width:1200px;
+		height:auto;
+	margin:-25 auto;
+	border-style:solid;
+	
+	}
+
+
+#column_left {
+	background: #A00;
+    width:200px;
+	height:100%;
+    float:left;
+}
+
+#column_right {
+	background:#fff;
+    width:1000px;
+	height:100%;
+    float: right;
+}
+#column_menu {
+	background:#fff;
+    width:1000px;
+	height:50px;
+    float: none;
+}
+
+.vertical{
+
+	text-decoration: none;
+	
+    width: 100px;
+	height:35px;
+	font-family: "Calibri";
+    font-size: large;
+
+}
+.vertical{
+	margin:-3px;
+
+}
+
+.vertical2{
+
+	text-decoration: none;
+	
+    width: 260px;
+	height:35px;
+	font-family: "Calibri";
+    font-size: large;
+
+}
+.vertical2{
+
+	text-decoration: none;
+	
+    width: 260px;
+	height:35px;
+	font-family: "Calibri";
+    font-size: large;
+
+}
+.vertical3{
+
+	text-decoration: none;
+	
+    width: 290px;
+	height:35px;
+	font-family: "Calibri";
+    font-size: large;
+
+}
+	
+.center{
+	margin-left:320px;
+	
+	}
+	.center2{
+	margin-left:430px;
+	
+	}
+		.center3{
+	margin-left:-10px;
+	
+	}
+	.center4{
+	margin-left:-10px;
+	
+	}
+	.center5{
+	margin-left:360px;
+	}
+	.center6{
+	margin-left:-78px;
+	
+	}
+.center7{
+	margin-left:330px;
+	}
+	
+/****************************************************************************************************************************************************************************************************************************************************************/
